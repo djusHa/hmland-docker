@@ -9,7 +9,9 @@ or to build Version 0.102
 
 
 # Docker Composer
-`  hmcfgusb:
-    restart: always
-    image: patrickse/rpi-hmcfgusb:0.102
-    privileged: true`
+```docker
+hmcfgusb:
+   restart: always
+   image: patrickse/rpi-hmcfgusb:0.102
+   privileged: true
+```
