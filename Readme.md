@@ -9,7 +9,7 @@ or to build Version 0.102
 
 
 # Docker Composer
-```docker
+```yaml
 hmcfgusb:
    restart: always
    image: patrickse/rpi-hmcfgusb:0.102
