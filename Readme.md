@@ -1,4 +1,4 @@
-Based on Work from (https://github.com/patrickse/rpi-hmcfgusb)[patrickse/rpi-hmcfgusb]
+Based on Work from [patrickse/rpi-hmcfgusb](https://github.com/patrickse/rpi-hmcfgusb)
 
 # Build Image
 `docker build --tag djusha/hmland:0.103 .`
