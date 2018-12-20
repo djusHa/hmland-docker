@@ -12,6 +12,6 @@ or to build Version 0.102
 ```yaml
 hmcfgusb:
    restart: always
-   image: patrickse/rpi-hmcfgusb:0.102
+   image: djusha/hmland:0.103
    privileged: true
 ```
