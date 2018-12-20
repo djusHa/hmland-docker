@@ -10,7 +10,7 @@ or to build Version 0.102
 
 # Docker Composer
 ```yaml
-hmcfgusb:
+hmland:
    restart: always
    image: djusha/hmland:0.103
    privileged: true
