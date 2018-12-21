@@ -46,7 +46,6 @@ services:
     - 8083:8083
     environment:
       - "TZ=Europe/Berlin"
-      - "CONFIGTYPE=configDB"
 
 networks:
   fhem-net:
