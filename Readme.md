@@ -57,6 +57,10 @@ networks:
 # FHEM
 Since the both Services running on the same User defined Network ( fhem-net ), we can access hmland container by it's hostname.
 
+See:
+https://docs.docker.com/v17.09/engine/userguide/networking/#user-defined-networks
+https://docs.docker.com/compose/networking/#specify-custom-networks
+
 To define HM-CFG-USB in FHEM, simply:
 
 `define HMUSB HMLAN hmland:1000`
