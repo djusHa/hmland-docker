@@ -55,7 +55,7 @@ networks:
 ```
 
 # FHEM
-Since the both Services running on the same User defined Network ( fhem-net ), we can access hmland container by it's hostname.
+Since both Services running on the same User defined Network ( fhem-net ), we can access hmland container by it's hostname.
 
 See:
 https://docs.docker.com/v17.09/engine/userguide/networking/#user-defined-networks
