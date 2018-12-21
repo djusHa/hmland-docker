@@ -55,7 +55,9 @@ networks:
 ```
 
 # FHEM
-To define HM-CFG-USB in FHEM:
+Since the both Services running on the same User defined Network ( fhem-net ), we can access hmland container by it's hostname.
+
+To define HM-CFG-USB in FHEM, simply:
 
 `define HMUSB HMLAN hmland:1000`
 
