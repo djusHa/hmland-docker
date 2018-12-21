@@ -14,7 +14,7 @@ or to build Version 0.102
 
 
 # Docker Composer
-To use hmland Image with dockerized [https://hub.docker.com/r/fhem/fhem/](Fhem Image), both must be in same Network.
+To use hmland Image with dockerized [https://hub.docker.com/r/fhem/fhem](Fhem Image), both must be in same Network.
 Below my Docker Compose File.
 Have a look at "networks" keys in both services and the definition at end.
 ``` yaml
