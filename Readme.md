@@ -15,8 +15,11 @@ or to build Version 0.102
 
 # Docker Composer
 To use hmland Image with dockerized https://hub.docker.com/r/fhem/fhem, both must be in same Network.
+
 Below my Docker Compose File.
+
 Have a look at "networks" keys in both services and the definition at end.
+
 ``` yaml
 version: "3.7"
 
@@ -50,3 +53,12 @@ networks:
     name: fhem-net
     driver: bridge
 ```
+
+# FHEM
+To define HM-CFG-USB in FHEM:
+
+`define HMUSB HMLAN hmland:1000`
+
+hmland -> hostname of Container which runs hmland
+
+1000 -> port for communication with FHEM
