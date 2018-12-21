@@ -1,4 +1,8 @@
+# Dockerize HomeMatic LAN configuration adapter-protocol, to use it in FHEM or other home automation programs.
 Based on Work from [patrickse/rpi-hmcfgusb](https://github.com/patrickse/rpi-hmcfgusb)
+
+Hmland repo: [https://git.zerfleddert.de/cgi-bin/gitweb.cgi/hmcfgusb](git.zerfleddert.de/cgi-bin/gitweb.cgi/hmcfgusb)
+Fhem description site (german only): [https://wiki.fhem.de/wiki/HM-CFG-USB_USB_Konfigurations-Adapter](HM-CFG-USB)
 
 # Build Image
 `docker build --tag djusha/hmland:0.103 .`
