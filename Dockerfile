@@ -14,10 +14,10 @@ RUN apt-get update \
   && ln -s /opt/hmcfgusb-$HMLAND_VERSION /opt/hmcfgusb \
   && make \
   && rm *.h *.o *.c *.d \
-  && apt-get remove --purge --auto-remove libusb-1.0-0-dev build-essential curl -y
+  && apt-get remove --purge --auto-remove build-essential curl -y
   
-EXPOSE 1234
+EXPOSE 1000
 
 WORKDIR /opt/hmcfgusb
 
-CMD ["/opt/hmcfgusb/hmland", "-v", "-p 1234", "-I"]
+CMD ["/opt/hmcfgusb-0.103/hmland", "-p 1000"]
